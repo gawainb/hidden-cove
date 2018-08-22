@@ -5,6 +5,8 @@ To run the code locally, you'll need to replace the API_KEY in the config.js fil
    const API_KEY = 'YOUR API_KEY';
    
 Run `npm install`
+
+then `npm start`
    
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
