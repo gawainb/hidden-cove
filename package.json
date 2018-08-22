@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "Bar Peak App using React & Redux",
   "main": "server.js",
-  "repository": "",
+  "repository": "https://gawainb.github.io/hidden-cove",
   "author": "",
   "license": "MIT",
   "scripts": {
     "watch-dev": "NODE_ENV=development webpack-dev-server --hot --inline",
     "api": "PORT=3000 nodemon server.js",
-    "start": "NODE_ENV=production webpack && node server.js"
+    "start": "NODE_ENV=production webpack && node server.js",
+    "predeploy": "yarn run start",
+    "deploy": "gh-pages -d build"
   },
   "engines": {
     "node": "10.9.0"
